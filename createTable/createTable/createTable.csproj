@@ -94,6 +94,93 @@
   <ItemGroup>
     <None Include="Resources\01.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_.tif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_1.tif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01_3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y08.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G03.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G05.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G06.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G07.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G08.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

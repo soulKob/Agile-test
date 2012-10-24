@@ -17,34 +17,37 @@ namespace createTable
         }
 
         private int n;
+        private int cmBoxYindex;
+        private int cmBoxGindex;
+        private String pathImg = "D:/work/AgileTraining/Project/createTable/PicKing/";
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
-            Graphics g = e.Graphics;
-            Pen myPen = new Pen(Color.Green, 2);
-            Pen myPen2 = new Pen(Color.Black, 2);
-            SolidBrush myBrush = new SolidBrush(Color.Blue);
+            //Graphics g = e.Graphics;
+            //Pen myPen = new Pen(Color.Green, 2);
+            //Pen myPen2 = new Pen(Color.Black, 2);
+            //SolidBrush myBrush = new SolidBrush(Color.Blue);
 
-            int xStart = 0;
-            int yStart = 0;
-            int xEnd = 456;
-            int yEnd = 0;
-            for (int i = 0; i <= 8; i++)
-            {
-                g.DrawLine(myPen2, xStart, yStart, xEnd, yEnd);
-                yStart = yStart + 57;
-                yEnd = yEnd + 57;
-            }
+            //int xStart = 0;
+            //int yStart = 0;
+            //int xEnd = 456;
+            //int yEnd = 0;
+            //for (int i = 0; i <= 8; i++)
+            //{
+            //    g.DrawLine(myPen2, xStart, yStart, xEnd, yEnd);
+            //    yStart = yStart + 57;
+            //    yEnd = yEnd + 57;
+            //}
 
-            xStart = 0;
-            yStart = 0;
-            xEnd = 0;
-            yEnd = 456;
-            for (int i = 0; i <= 8; i++)
-            {
-                g.DrawLine(myPen2, xStart, yStart, xEnd, yEnd);
-                xStart = xStart + 57;
-                xEnd = xEnd + 57;
-            }
+            //xStart = 0;
+            //yStart = 0;
+            //xEnd = 0;
+            //yEnd = 456;
+            //for (int i = 0; i <= 8; i++)
+            //{
+            //    g.DrawLine(myPen2, xStart, yStart, xEnd, yEnd);
+            //    xStart = xStart + 57;
+            //    xEnd = xEnd + 57;
+            //}
         }
 
         private void panel1_MouseClick(object sender, MouseEventArgs e)
@@ -54,6 +57,34 @@ namespace createTable
                 case 1: pictureBox1.Location = new System.Drawing.Point(e.X, e.Y);
                     break;
                 case 2: pictureBox2.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 3: pictureBox3.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 4: pictureBox4.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 5: pictureBox5.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 6: pictureBox6.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 7: pictureBox7.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 8: pictureBox8.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 9: pictureBox9.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 10: pictureBox10.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 11: pictureBox11.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 12: pictureBox12.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 13: pictureBox13.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 14: pictureBox14.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 15: pictureBox15.Location = new System.Drawing.Point(e.X, e.Y);
+                    break;
+                case 16: pictureBox16.Location = new System.Drawing.Point(e.X, e.Y);
                     break;
             }
             //algo.GetDistance()
@@ -74,5 +105,234 @@ namespace createTable
         {
             n = 2;
         }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            n = 3;
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            n = 4;
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            n = 5;
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            n = 6;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            n = 7;
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            n = 8;
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            n = 9;
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            n = 10;
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            n = 11;
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            n = 12;
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            n = 13;
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            n = 14;
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            n = 15;
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            n = 16;
+        }
+
+        private void bt_Y1_Click(object sender, EventArgs e)
+        {
+            pictureBox9.Visible = false;
+            bt_Y1.Enabled = false;
+            //this.pictureBox9.Image = new Bitmap("D:/work/AgileTraining/Project/createTable/pic/01_.jpg");
+        }
+
+        private void bt_Y2_Click(object sender, EventArgs e)
+        {
+            pictureBox10.Visible = false;
+            bt_Y2.Enabled = false;
+        }
+
+        private void bt_Y3_Click(object sender, EventArgs e)
+        {
+            pictureBox11.Visible = false;
+            bt_Y3.Enabled = false;
+        }
+
+        private void bt_Y4_Click(object sender, EventArgs e)
+        {
+            pictureBox12.Visible = false;
+            bt_Y4.Enabled = false;
+        }
+
+        private void bt_Y5_Click(object sender, EventArgs e)
+        {
+            pictureBox13.Visible = false;
+            bt_Y5.Enabled = false;
+        }
+
+        private void bt_Y6_Click(object sender, EventArgs e)
+        {
+            pictureBox14.Visible = false;
+            bt_Y6.Enabled = false;
+        }
+
+        private void bt_Y7_Click(object sender, EventArgs e)
+        {
+            pictureBox15.Visible = false;
+            bt_Y7.Enabled = false;
+        }
+
+        private void bt_Y8_Click(object sender, EventArgs e)
+        {
+            pictureBox16.Visible = false;
+            bt_Y8.Enabled = false;
+        }
+
+        private void bt_G1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false;
+            bt_G1.Enabled = false;
+        }
+
+        private void bt_G2_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = false;
+            bt_G2.Enabled = false;
+        }
+
+        private void bt_G3_Click(object sender, EventArgs e)
+        {
+            pictureBox3.Visible = false;
+            bt_G3.Enabled = false;
+        }
+
+        private void bt_G4_Click(object sender, EventArgs e)
+        {
+            pictureBox4.Visible = false;
+            bt_G4.Enabled = false;
+        }
+
+        private void bt_G5_Click(object sender, EventArgs e)
+        {
+            pictureBox5.Visible = false;
+            bt_G5.Enabled = false;
+        }
+
+        private void bt_G6_Click(object sender, EventArgs e)
+        {
+            pictureBox6.Visible = false;
+            bt_G6.Enabled = false;
+        }
+
+        private void bt_G7_Click(object sender, EventArgs e)
+        {
+            pictureBox7.Visible = false;
+            bt_G7.Enabled = false;
+        }
+
+        private void bt_G8_Click(object sender, EventArgs e)
+        {
+            pictureBox8.Visible = false;
+            bt_G8.Enabled = false;
+        }
+
+        private void cmbBoxYel_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmBoxYindex = cmbBoxYel.SelectedIndex;
+            //MessageBox.Show(cmBoxYindex.ToString());
+        }
+        private void cmbBoxGr_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            cmBoxGindex = cmbBoxGr.SelectedIndex;
+            //MessageBox.Show(cmBoxGindex.ToString());
+        }
+
+        private void bt_evoY_Click(object sender, EventArgs e)
+        {
+            switch (cmBoxGindex)
+            {
+                case 0: this.pictureBox9.Image = new Bitmap(pathImg + "YK1.jpg");
+                    break;
+                case 1: this.pictureBox10.Image = new Bitmap(pathImg + "YK2.jpg");
+                    break;
+                case 2: this.pictureBox11.Image = new Bitmap(pathImg + "YK3.jpg");
+                    break;
+                case 3: this.pictureBox12.Image = new Bitmap(pathImg + "YK4.jpg");
+                    break;
+                case 4: this.pictureBox13.Image = new Bitmap(pathImg + "YK5.jpg");
+                    break;
+                case 5: this.pictureBox14.Image = new Bitmap(pathImg + "YK6.jpg");
+                    break;
+                case 6: this.pictureBox15.Image = new Bitmap(pathImg + "YK7.jpg");
+                    break;
+                case 7: this.pictureBox16.Image = new Bitmap(pathImg + "YK8.jpg");
+                    break;
+            }
+        }
+
+        private void bt_evoG_Click(object sender, EventArgs e)
+        {
+            switch (cmBoxGindex)
+            {
+                case 0: this.pictureBox1.Image = new Bitmap(pathImg + "GK1.jpg");
+                    break;
+                case 1: this.pictureBox2.Image = new Bitmap(pathImg + "GK2.jpg");
+                    break;
+                case 2: this.pictureBox3.Image = new Bitmap(pathImg + "GK3.jpg");
+                    break;
+                case 3: this.pictureBox4.Image = new Bitmap(pathImg + "GK4.jpg");
+                    break;
+                case 4: this.pictureBox5.Image = new Bitmap(pathImg + "GK5.jpg");
+                    break;
+                case 5: this.pictureBox6.Image = new Bitmap(pathImg + "GK6.jpg");
+                    break;
+                case 6: this.pictureBox7.Image = new Bitmap(pathImg + "GK7.jpg");
+                    break;
+                case 7: this.pictureBox8.Image = new Bitmap(pathImg + "GK8.jpg");
+                    break;
+            }
+        }
+
+
+
+
+
     }
 }

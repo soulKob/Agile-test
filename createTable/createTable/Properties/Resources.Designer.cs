@@ -67,9 +67,86 @@ namespace createTable.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap _01_ {
+            get {
+                object obj = ResourceManager.GetObject("01_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _01_1 {
+            get {
+                object obj = ResourceManager.GetObject("01_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _01_2 {
+            get {
+                object obj = ResourceManager.GetObject("01_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _01_3 {
+            get {
+                object obj = ResourceManager.GetObject("01_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _011 {
+            get {
+                object obj = ResourceManager.GetObject("011", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _012 {
+            get {
+                object obj = ResourceManager.GetObject("012", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _013 {
+            get {
+                object obj = ResourceManager.GetObject("013", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap _02 {
             get {
                 object obj = ResourceManager.GetObject("02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _02_ {
+            get {
+                object obj = ResourceManager.GetObject("02_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _02_1 {
+            get {
+                object obj = ResourceManager.GetObject("02_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _02_2 {
+            get {
+                object obj = ResourceManager.GetObject("02_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _02_3 {
+            get {
+                object obj = ResourceManager.GetObject("02_3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -91,6 +168,132 @@ namespace createTable.Properties {
         internal static System.Drawing.Bitmap bg_table {
             get {
                 object obj = ResourceManager.GetObject("bg_table", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap bg3 {
+            get {
+                object obj = ResourceManager.GetObject("bg3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap bg4 {
+            get {
+                object obj = ResourceManager.GetObject("bg4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G01 {
+            get {
+                object obj = ResourceManager.GetObject("G01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G02 {
+            get {
+                object obj = ResourceManager.GetObject("G02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G03 {
+            get {
+                object obj = ResourceManager.GetObject("G03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G04 {
+            get {
+                object obj = ResourceManager.GetObject("G04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G05 {
+            get {
+                object obj = ResourceManager.GetObject("G05", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G06 {
+            get {
+                object obj = ResourceManager.GetObject("G06", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G07 {
+            get {
+                object obj = ResourceManager.GetObject("G07", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G08 {
+            get {
+                object obj = ResourceManager.GetObject("G08", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Y01 {
+            get {
+                object obj = ResourceManager.GetObject("Y01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Y02 {
+            get {
+                object obj = ResourceManager.GetObject("Y02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Y03 {
+            get {
+                object obj = ResourceManager.GetObject("Y03", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Y04 {
+            get {
+                object obj = ResourceManager.GetObject("Y04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Y05 {
+            get {
+                object obj = ResourceManager.GetObject("Y05", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Y06 {
+            get {
+                object obj = ResourceManager.GetObject("Y06", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Y07 {
+            get {
+                object obj = ResourceManager.GetObject("Y07", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Y08 {
+            get {
+                object obj = ResourceManager.GetObject("Y08", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
