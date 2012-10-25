@@ -165,6 +165,13 @@ namespace createTable.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap _815789215819644369 {
+            get {
+                object obj = ResourceManager.GetObject("815789215819644369", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap bg_table {
             get {
                 object obj = ResourceManager.GetObject("bg_table", resourceCulture);
@@ -182,6 +189,13 @@ namespace createTable.Properties {
         internal static System.Drawing.Bitmap bg4 {
             get {
                 object obj = ResourceManager.GetObject("bg4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap bt_Undo {
+            get {
+                object obj = ResourceManager.GetObject("bt_Undo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -238,6 +252,90 @@ namespace createTable.Properties {
         internal static System.Drawing.Bitmap G08 {
             get {
                 object obj = ResourceManager.GetObject("G08", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon_2 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon_21 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon_21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon_22 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon_22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon_23 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon_23", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon_24 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon_24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon_25 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon_25", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon_26 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon_26", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon_27 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon_27", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon2 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap undo_icon3 {
+            get {
+                object obj = ResourceManager.GetObject("undo_icon3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

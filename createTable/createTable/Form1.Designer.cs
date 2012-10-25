@@ -65,6 +65,22 @@
             this.bt_evoY = new System.Windows.Forms.Button();
             this.bt_evoG = new System.Windows.Forms.Button();
             this.cmbBoxGr = new System.Windows.Forms.ComboBox();
+            this.btUndoG1 = new System.Windows.Forms.PictureBox();
+            this.btUndoG2 = new System.Windows.Forms.PictureBox();
+            this.btUndoG3 = new System.Windows.Forms.PictureBox();
+            this.btUndoG4 = new System.Windows.Forms.PictureBox();
+            this.btUndoG5 = new System.Windows.Forms.PictureBox();
+            this.btUndoG6 = new System.Windows.Forms.PictureBox();
+            this.btUndoG7 = new System.Windows.Forms.PictureBox();
+            this.btUndoG8 = new System.Windows.Forms.PictureBox();
+            this.btUndoY1 = new System.Windows.Forms.PictureBox();
+            this.btUndoY2 = new System.Windows.Forms.PictureBox();
+            this.btUndoY3 = new System.Windows.Forms.PictureBox();
+            this.btUndoY4 = new System.Windows.Forms.PictureBox();
+            this.btUndoY5 = new System.Windows.Forms.PictureBox();
+            this.btUndoY6 = new System.Windows.Forms.PictureBox();
+            this.btUndoY8 = new System.Windows.Forms.PictureBox();
+            this.btUndoY7 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -82,6 +98,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY7)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -424,12 +456,13 @@
             // 
             // bt_G1
             // 
+            this.bt_G1.BackColor = System.Drawing.SystemColors.Control;
             this.bt_G1.Location = new System.Drawing.Point(659, 160);
             this.bt_G1.Name = "bt_G1";
             this.bt_G1.Size = new System.Drawing.Size(75, 23);
             this.bt_G1.TabIndex = 9;
             this.bt_G1.Text = "Green1";
-            this.bt_G1.UseVisualStyleBackColor = true;
+            this.bt_G1.UseVisualStyleBackColor = false;
             this.bt_G1.Click += new System.EventHandler(this.bt_G1_Click);
             // 
             // cmbBoxYel
@@ -488,12 +521,188 @@
             this.cmbBoxGr.TabIndex = 19;
             this.cmbBoxGr.SelectedIndexChanged += new System.EventHandler(this.cmbBoxGr_SelectedIndexChanged_1);
             // 
+            // btUndoG1
+            // 
+            this.btUndoG1.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoG1.Location = new System.Drawing.Point(740, 160);
+            this.btUndoG1.Name = "btUndoG1";
+            this.btUndoG1.Size = new System.Drawing.Size(20, 20);
+            this.btUndoG1.TabIndex = 21;
+            this.btUndoG1.TabStop = false;
+            this.btUndoG1.Click += new System.EventHandler(this.btUndoG1_Click);
+            // 
+            // btUndoG2
+            // 
+            this.btUndoG2.Image = global::createTable.Properties.Resources.undo_icon_21;
+            this.btUndoG2.Location = new System.Drawing.Point(740, 186);
+            this.btUndoG2.Name = "btUndoG2";
+            this.btUndoG2.Size = new System.Drawing.Size(20, 20);
+            this.btUndoG2.TabIndex = 22;
+            this.btUndoG2.TabStop = false;
+            this.btUndoG2.Click += new System.EventHandler(this.btUndoG2_Click);
+            // 
+            // btUndoG3
+            // 
+            this.btUndoG3.Image = global::createTable.Properties.Resources.undo_icon_22;
+            this.btUndoG3.Location = new System.Drawing.Point(740, 215);
+            this.btUndoG3.Name = "btUndoG3";
+            this.btUndoG3.Size = new System.Drawing.Size(20, 20);
+            this.btUndoG3.TabIndex = 23;
+            this.btUndoG3.TabStop = false;
+            this.btUndoG3.Click += new System.EventHandler(this.btUndoG3_Click);
+            // 
+            // btUndoG4
+            // 
+            this.btUndoG4.Image = global::createTable.Properties.Resources.undo_icon_23;
+            this.btUndoG4.Location = new System.Drawing.Point(740, 244);
+            this.btUndoG4.Name = "btUndoG4";
+            this.btUndoG4.Size = new System.Drawing.Size(20, 20);
+            this.btUndoG4.TabIndex = 24;
+            this.btUndoG4.TabStop = false;
+            this.btUndoG4.Click += new System.EventHandler(this.btUndoG4_Click);
+            // 
+            // btUndoG5
+            // 
+            this.btUndoG5.Image = global::createTable.Properties.Resources.undo_icon_24;
+            this.btUndoG5.Location = new System.Drawing.Point(740, 273);
+            this.btUndoG5.Name = "btUndoG5";
+            this.btUndoG5.Size = new System.Drawing.Size(20, 20);
+            this.btUndoG5.TabIndex = 25;
+            this.btUndoG5.TabStop = false;
+            this.btUndoG5.Click += new System.EventHandler(this.btUndoG5_Click);
+            // 
+            // btUndoG6
+            // 
+            this.btUndoG6.Image = global::createTable.Properties.Resources.undo_icon_25;
+            this.btUndoG6.Location = new System.Drawing.Point(740, 302);
+            this.btUndoG6.Name = "btUndoG6";
+            this.btUndoG6.Size = new System.Drawing.Size(20, 20);
+            this.btUndoG6.TabIndex = 26;
+            this.btUndoG6.TabStop = false;
+            this.btUndoG6.Click += new System.EventHandler(this.btUndoG6_Click);
+            // 
+            // btUndoG7
+            // 
+            this.btUndoG7.Image = global::createTable.Properties.Resources.undo_icon_26;
+            this.btUndoG7.Location = new System.Drawing.Point(740, 331);
+            this.btUndoG7.Name = "btUndoG7";
+            this.btUndoG7.Size = new System.Drawing.Size(20, 20);
+            this.btUndoG7.TabIndex = 27;
+            this.btUndoG7.TabStop = false;
+            this.btUndoG7.Click += new System.EventHandler(this.btUndoG7_Click);
+            // 
+            // btUndoG8
+            // 
+            this.btUndoG8.Image = global::createTable.Properties.Resources.undo_icon_27;
+            this.btUndoG8.Location = new System.Drawing.Point(740, 360);
+            this.btUndoG8.Name = "btUndoG8";
+            this.btUndoG8.Size = new System.Drawing.Size(20, 20);
+            this.btUndoG8.TabIndex = 28;
+            this.btUndoG8.TabStop = false;
+            this.btUndoG8.Click += new System.EventHandler(this.btUndoG8_Click);
+            // 
+            // btUndoY1
+            // 
+            this.btUndoY1.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoY1.Location = new System.Drawing.Point(111, 160);
+            this.btUndoY1.Name = "btUndoY1";
+            this.btUndoY1.Size = new System.Drawing.Size(20, 20);
+            this.btUndoY1.TabIndex = 29;
+            this.btUndoY1.TabStop = false;
+            this.btUndoY1.Click += new System.EventHandler(this.btUndoY1_Click);
+            // 
+            // btUndoY2
+            // 
+            this.btUndoY2.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoY2.Location = new System.Drawing.Point(111, 186);
+            this.btUndoY2.Name = "btUndoY2";
+            this.btUndoY2.Size = new System.Drawing.Size(20, 20);
+            this.btUndoY2.TabIndex = 30;
+            this.btUndoY2.TabStop = false;
+            this.btUndoY2.Click += new System.EventHandler(this.btUndoY2_Click);
+            // 
+            // btUndoY3
+            // 
+            this.btUndoY3.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoY3.Location = new System.Drawing.Point(111, 215);
+            this.btUndoY3.Name = "btUndoY3";
+            this.btUndoY3.Size = new System.Drawing.Size(20, 20);
+            this.btUndoY3.TabIndex = 31;
+            this.btUndoY3.TabStop = false;
+            this.btUndoY3.Click += new System.EventHandler(this.btUndoY3_Click);
+            // 
+            // btUndoY4
+            // 
+            this.btUndoY4.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoY4.Location = new System.Drawing.Point(111, 244);
+            this.btUndoY4.Name = "btUndoY4";
+            this.btUndoY4.Size = new System.Drawing.Size(20, 20);
+            this.btUndoY4.TabIndex = 32;
+            this.btUndoY4.TabStop = false;
+            this.btUndoY4.Click += new System.EventHandler(this.btUndoY4_Click);
+            // 
+            // btUndoY5
+            // 
+            this.btUndoY5.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoY5.Location = new System.Drawing.Point(111, 273);
+            this.btUndoY5.Name = "btUndoY5";
+            this.btUndoY5.Size = new System.Drawing.Size(20, 20);
+            this.btUndoY5.TabIndex = 33;
+            this.btUndoY5.TabStop = false;
+            this.btUndoY5.Click += new System.EventHandler(this.btUndoY5_Click);
+            // 
+            // btUndoY6
+            // 
+            this.btUndoY6.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoY6.Location = new System.Drawing.Point(111, 302);
+            this.btUndoY6.Name = "btUndoY6";
+            this.btUndoY6.Size = new System.Drawing.Size(20, 20);
+            this.btUndoY6.TabIndex = 34;
+            this.btUndoY6.TabStop = false;
+            this.btUndoY6.Click += new System.EventHandler(this.btUndoY6_Click);
+            // 
+            // btUndoY8
+            // 
+            this.btUndoY8.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoY8.Location = new System.Drawing.Point(111, 360);
+            this.btUndoY8.Name = "btUndoY8";
+            this.btUndoY8.Size = new System.Drawing.Size(20, 20);
+            this.btUndoY8.TabIndex = 35;
+            this.btUndoY8.TabStop = false;
+            this.btUndoY8.Click += new System.EventHandler(this.btUndoY8_Click);
+            // 
+            // btUndoY7
+            // 
+            this.btUndoY7.Image = global::createTable.Properties.Resources.undo_icon_2;
+            this.btUndoY7.Location = new System.Drawing.Point(111, 331);
+            this.btUndoY7.Name = "btUndoY7";
+            this.btUndoY7.Size = new System.Drawing.Size(20, 20);
+            this.btUndoY7.TabIndex = 35;
+            this.btUndoY7.TabStop = false;
+            this.btUndoY7.Click += new System.EventHandler(this.btUndoY7_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::createTable.Properties.Resources.bg4;
-            this.ClientSize = new System.Drawing.Size(784, 562);
+            this.ClientSize = new System.Drawing.Size(941, 562);
+            this.Controls.Add(this.btUndoY7);
+            this.Controls.Add(this.btUndoY8);
+            this.Controls.Add(this.btUndoY6);
+            this.Controls.Add(this.btUndoY5);
+            this.Controls.Add(this.btUndoY4);
+            this.Controls.Add(this.btUndoY3);
+            this.Controls.Add(this.btUndoY2);
+            this.Controls.Add(this.btUndoY1);
+            this.Controls.Add(this.btUndoG8);
+            this.Controls.Add(this.btUndoG7);
+            this.Controls.Add(this.btUndoG6);
+            this.Controls.Add(this.btUndoG5);
+            this.Controls.Add(this.btUndoG4);
+            this.Controls.Add(this.btUndoG3);
+            this.Controls.Add(this.btUndoG2);
+            this.Controls.Add(this.btUndoG1);
             this.Controls.Add(this.bt_evoG);
             this.Controls.Add(this.cmbBoxGr);
             this.Controls.Add(this.bt_evoY);
@@ -516,7 +725,7 @@
             this.Controls.Add(this.bt_Y1);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Makhos Game version 1.2  by..  Sheeps Six";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
@@ -534,6 +743,22 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoG8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btUndoY7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -577,6 +802,22 @@
         private System.Windows.Forms.Button bt_evoY;
         private System.Windows.Forms.Button bt_evoG;
         private System.Windows.Forms.ComboBox cmbBoxGr;
+        private System.Windows.Forms.PictureBox btUndoG1;
+        private System.Windows.Forms.PictureBox btUndoG2;
+        private System.Windows.Forms.PictureBox btUndoG3;
+        private System.Windows.Forms.PictureBox btUndoG4;
+        private System.Windows.Forms.PictureBox btUndoG5;
+        private System.Windows.Forms.PictureBox btUndoG6;
+        private System.Windows.Forms.PictureBox btUndoG7;
+        private System.Windows.Forms.PictureBox btUndoG8;
+        private System.Windows.Forms.PictureBox btUndoY1;
+        private System.Windows.Forms.PictureBox btUndoY2;
+        private System.Windows.Forms.PictureBox btUndoY3;
+        private System.Windows.Forms.PictureBox btUndoY4;
+        private System.Windows.Forms.PictureBox btUndoY5;
+        private System.Windows.Forms.PictureBox btUndoY6;
+        private System.Windows.Forms.PictureBox btUndoY8;
+        private System.Windows.Forms.PictureBox btUndoY7;
 
     }
 }

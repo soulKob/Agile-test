@@ -181,6 +181,48 @@
   <ItemGroup>
     <None Include="Resources\G08.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\815789215819644369.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bt_Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon_21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon_22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon_23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon_24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon_25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon_26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_icon_27.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

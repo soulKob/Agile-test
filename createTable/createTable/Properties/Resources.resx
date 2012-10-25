@@ -139,23 +139,38 @@
   <data name="G04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\G04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="G01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\G01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undo_icon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undo_icon_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon_21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="G03" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\G03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="02_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\02_1.tif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Y08" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Y08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg_table.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undo_icon_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undo_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon_24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="013" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Y03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Y03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undo_icon_26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon_26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bt_Undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bt_Undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="G06" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\G06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,17 +178,32 @@
   <data name="01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg_table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_table.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undo_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Y01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Y01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="02_" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\02_.tif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="undo_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="01_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="021" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\021.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="G01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undo_icon_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="G02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\G02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,8 +217,17 @@
   <data name="01_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="G08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\G08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="bg3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bg3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="815789215819644369" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\815789215819644369.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="undo_icon_25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon_25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="02_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\02_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,11 +241,14 @@
   <data name="012" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Y03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Y03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="022" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\022.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="02_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\02_1.tif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undo_icon_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon_22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Y02" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Y02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,10 +256,10 @@
   <data name="01_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\01_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\02.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undo_icon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="G08" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\G08.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="undo_icon_27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo_icon_27.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -14,14 +14,44 @@ namespace createTable
         public Form1()
         {
             InitializeComponent();
+
+            //Set icon Undo default = false
+            btUndoY1.Enabled = false;
+            btUndoY2.Enabled = false;
+            btUndoY3.Enabled = false;
+            btUndoY4.Enabled = false;
+            btUndoY5.Enabled = false;
+            btUndoY6.Enabled = false;
+            btUndoY7.Enabled = false;
+            btUndoY8.Enabled = false;
+
+            btUndoG1.Enabled = false;
+            btUndoG2.Enabled = false;
+            btUndoG3.Enabled = false;
+            btUndoG4.Enabled = false;
+            btUndoG5.Enabled = false;
+            btUndoG6.Enabled = false;
+            btUndoG7.Enabled = false;
+            btUndoG8.Enabled = false;
+
         }
 
         private int n;
         private int cmBoxYindex;
         private int cmBoxGindex;
         private String pathImg = "D:/work/AgileTraining/Project/createTable/PicKing/";
+        private int chkPointYell = 0;
+        private int chkPointGreen = 0;
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
+            if (chkPointYell == 8)
+            {
+                MessageBox.Show("Green Team is Win but Yellow Team is lose");
+            }
+            else if (chkPointGreen == 8)
+            {
+                MessageBox.Show("Yellow Team is Win but Green Team is lose");
+            }
             //Graphics g = e.Graphics;
             //Pen myPen = new Pen(Color.Green, 2);
             //Pen myPen2 = new Pen(Color.Black, 2);
@@ -180,97 +210,129 @@ namespace createTable
         {
             pictureBox9.Visible = false;
             bt_Y1.Enabled = false;
-            //this.pictureBox9.Image = new Bitmap("D:/work/AgileTraining/Project/createTable/pic/01_.jpg");
+            chkPointYell = chkPointYell + 1;
+            btUndoY1.Enabled = true;
+            
         }
 
         private void bt_Y2_Click(object sender, EventArgs e)
         {
             pictureBox10.Visible = false;
             bt_Y2.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY2.Enabled = true;
         }
 
         private void bt_Y3_Click(object sender, EventArgs e)
         {
             pictureBox11.Visible = false;
             bt_Y3.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY3.Enabled = true;
         }
 
         private void bt_Y4_Click(object sender, EventArgs e)
         {
             pictureBox12.Visible = false;
             bt_Y4.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY4.Enabled = true;
         }
 
         private void bt_Y5_Click(object sender, EventArgs e)
         {
             pictureBox13.Visible = false;
             bt_Y5.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY5.Enabled = true;
         }
 
         private void bt_Y6_Click(object sender, EventArgs e)
         {
             pictureBox14.Visible = false;
             bt_Y6.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY6.Enabled = true;
         }
 
         private void bt_Y7_Click(object sender, EventArgs e)
         {
             pictureBox15.Visible = false;
             bt_Y7.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY7.Enabled = true;
         }
 
         private void bt_Y8_Click(object sender, EventArgs e)
         {
             pictureBox16.Visible = false;
             bt_Y8.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY8.Enabled = true;
         }
 
         private void bt_G1_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = false;
             bt_G1.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG1.Enabled = true;
         }
 
         private void bt_G2_Click(object sender, EventArgs e)
         {
             pictureBox2.Visible = false;
             bt_G2.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG2.Enabled = true;
         }
 
         private void bt_G3_Click(object sender, EventArgs e)
         {
             pictureBox3.Visible = false;
             bt_G3.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG3.Enabled = true;
         }
 
         private void bt_G4_Click(object sender, EventArgs e)
         {
             pictureBox4.Visible = false;
             bt_G4.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG4.Enabled = true;
         }
 
         private void bt_G5_Click(object sender, EventArgs e)
         {
             pictureBox5.Visible = false;
             bt_G5.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG5.Enabled = true;
         }
 
         private void bt_G6_Click(object sender, EventArgs e)
         {
             pictureBox6.Visible = false;
             bt_G6.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG6.Enabled = true;
         }
 
         private void bt_G7_Click(object sender, EventArgs e)
         {
             pictureBox7.Visible = false;
             bt_G7.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG7.Enabled = true;
         }
 
         private void bt_G8_Click(object sender, EventArgs e)
         {
             pictureBox8.Visible = false;
             bt_G8.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG8.Enabled = true;
         }
 
         private void cmbBoxYel_SelectedIndexChanged(object sender, EventArgs e)
@@ -286,7 +348,7 @@ namespace createTable
 
         private void bt_evoY_Click(object sender, EventArgs e)
         {
-            switch (cmBoxGindex)
+            switch (cmBoxYindex)
             {
                 case 0: this.pictureBox9.Image = new Bitmap(pathImg + "YK1.jpg");
                     break;
@@ -328,6 +390,118 @@ namespace createTable
                 case 7: this.pictureBox8.Image = new Bitmap(pathImg + "GK8.jpg");
                     break;
             }
+        }
+
+        private void btUndoG1_Click(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = true;
+            bt_G1.Enabled = true;
+            chkPointGreen = chkPointGreen -1 ;
+        }
+
+        private void btUndoG2_Click(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = true;
+            bt_G2.Enabled = true;
+            chkPointGreen = chkPointGreen - 1;
+        }
+
+        private void btUndoG3_Click(object sender, EventArgs e)
+        {
+            pictureBox3.Visible = true;
+            bt_G3.Enabled = true;
+            chkPointGreen = chkPointGreen - 1;
+        }
+
+        private void btUndoG4_Click(object sender, EventArgs e)
+        {
+            pictureBox4.Visible = true;
+            bt_G4.Enabled = true;
+            chkPointGreen = chkPointGreen - 1;
+        }
+
+        private void btUndoG5_Click(object sender, EventArgs e)
+        {
+            pictureBox5.Visible = true;
+            bt_G5.Enabled = true;
+            chkPointGreen = chkPointGreen - 1;
+        }
+
+        private void btUndoG6_Click(object sender, EventArgs e)
+        {
+            pictureBox6.Visible = true;
+            bt_G6.Enabled = true;
+            chkPointGreen = chkPointGreen - 1;
+        }
+
+        private void btUndoG7_Click(object sender, EventArgs e)
+        {
+            pictureBox7.Visible = true;
+            bt_G7.Enabled = true;
+            chkPointGreen = chkPointGreen - 1;
+        }
+
+        private void btUndoG8_Click(object sender, EventArgs e)
+        {
+            pictureBox8.Visible = true;
+            bt_G8.Enabled = true;
+            chkPointGreen = chkPointGreen - 1;
+        }
+
+        private void btUndoY1_Click(object sender, EventArgs e)
+        {
+            pictureBox9.Visible = true;
+            bt_Y1.Enabled = true;
+            chkPointYell = chkPointGreen - 1;
+        }
+
+        private void btUndoY2_Click(object sender, EventArgs e)
+        {
+            pictureBox10.Visible = true;
+            bt_Y2.Enabled = true;
+            chkPointYell = chkPointGreen - 1;
+        }
+
+        private void btUndoY3_Click(object sender, EventArgs e)
+        {
+            pictureBox11.Visible = true;
+            bt_Y3.Enabled = true;
+            chkPointYell = chkPointGreen - 1;
+        }
+
+        private void btUndoY4_Click(object sender, EventArgs e)
+        {
+            pictureBox12.Visible = true;
+            bt_Y4.Enabled = true;
+            chkPointYell = chkPointGreen - 1;
+        }
+
+        private void btUndoY5_Click(object sender, EventArgs e)
+        {
+            pictureBox13.Visible = true;
+            bt_Y5.Enabled = true;
+            chkPointYell = chkPointGreen - 1;
+        }
+
+        private void btUndoY6_Click(object sender, EventArgs e)
+        {
+            pictureBox14.Visible = true;
+            bt_Y6.Enabled = true;
+            chkPointYell = chkPointGreen - 1;
+        }
+
+        private void btUndoY7_Click(object sender, EventArgs e)
+        {
+            pictureBox15.Visible = true;
+            bt_Y7.Enabled = true;
+            chkPointYell = chkPointGreen - 1;
+        }
+
+        private void btUndoY8_Click(object sender, EventArgs e)
+        {
+            pictureBox16.Visible = true;
+            bt_Y8.Enabled = true;
+            chkPointYell = chkPointGreen - 1;
         }
 
 
