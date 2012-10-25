@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
@@ -81,7 +82,7 @@
             this.btUndoY6 = new System.Windows.Forms.PictureBox();
             this.btUndoY8 = new System.Windows.Forms.PictureBox();
             this.btUndoY7 = new System.Windows.Forms.PictureBox();
-            this.exit = new System.Windows.Forms.Button();
+            this.Btexit = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -115,6 +116,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btUndoY6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btUndoY8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btUndoY7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Btexit)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -682,16 +684,15 @@
             this.btUndoY7.TabStop = false;
             this.btUndoY7.Click += new System.EventHandler(this.btUndoY7_Click);
             // 
-            // exit
+            // Btexit
             // 
-            this.exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.exit.Location = new System.Drawing.Point(659, 500);
-            this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(75, 34);
-            this.exit.TabIndex = 36;
-            this.exit.Text = "EXIT";
-            this.exit.UseVisualStyleBackColor = true;
-            this.exit.Click += new System.EventHandler(this.exit_Click);
+            this.Btexit.Image = ((System.Drawing.Image)(resources.GetObject("Btexit.Image")));
+            this.Btexit.Location = new System.Drawing.Point(659, 514);
+            this.Btexit.Name = "Btexit";
+            this.Btexit.Size = new System.Drawing.Size(38, 39);
+            this.Btexit.TabIndex = 36;
+            this.Btexit.TabStop = false;
+            this.Btexit.Click += new System.EventHandler(this.Btexit_Click);
             // 
             // Form1
             // 
@@ -699,7 +700,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::createTable.Properties.Resources.bg4;
             this.ClientSize = new System.Drawing.Size(941, 562);
-            this.Controls.Add(this.exit);
+            this.Controls.Add(this.Btexit);
             this.Controls.Add(this.btUndoY7);
             this.Controls.Add(this.btUndoY8);
             this.Controls.Add(this.btUndoY6);
@@ -772,6 +773,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btUndoY6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btUndoY8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btUndoY7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Btexit)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -831,7 +833,7 @@
         private System.Windows.Forms.PictureBox btUndoY6;
         private System.Windows.Forms.PictureBox btUndoY8;
         private System.Windows.Forms.PictureBox btUndoY7;
-        private System.Windows.Forms.Button exit;
+        private System.Windows.Forms.PictureBox Btexit;
 
     }
 }
