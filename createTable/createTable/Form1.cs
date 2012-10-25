@@ -117,6 +117,11 @@ namespace createTable
                 case 16: pictureBox16.Location = new System.Drawing.Point(e.X, e.Y);
                     break;
             }
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
             //algo.GetDistance()
             //MessageBox.Show(e.X.ToString()+" ,"+e.Y.ToString());
             n = 0;
@@ -129,81 +134,177 @@ namespace createTable
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             n = 1;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox1.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             n = 2;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox2.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             n = 3;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox3.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             n = 4;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox4.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             n = 5;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox5.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             n = 6;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            } 
+            pictureBox6.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             n = 7;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox7.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             n = 8;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox8.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             n = 9;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox9.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
             n = 10;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox10.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
             n = 11;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox11.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
             n = 12;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox12.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
             n = 13;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox13.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
             n = 14;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox14.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
             n = 15;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox15.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
             n = 16;
+            foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())
+            {
+                picBox.BorderStyle = BorderStyle.None;
+                picBox.Refresh();
+            }
+            pictureBox16.BorderStyle = BorderStyle.Fixed3D;
         }
 
         private void bt_Y1_Click(object sender, EventArgs e)
