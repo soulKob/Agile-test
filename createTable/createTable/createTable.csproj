@@ -223,6 +223,66 @@
   <ItemGroup>
     <None Include="Resources\undo_icon_27.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Y01_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G01_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G02_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G03_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G042.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G04_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G05_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G06_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G06_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G07_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G08_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GK1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GK2_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GK3_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GK4_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GK5_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YK6_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GK6_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GK7_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GK8_1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

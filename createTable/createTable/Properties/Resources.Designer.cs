@@ -207,9 +207,23 @@ namespace createTable.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap G01_ {
+            get {
+                object obj = ResourceManager.GetObject("G01_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap G02 {
             get {
                 object obj = ResourceManager.GetObject("G02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G02_ {
+            get {
+                object obj = ResourceManager.GetObject("G02_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -221,9 +235,30 @@ namespace createTable.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap G03_ {
+            get {
+                object obj = ResourceManager.GetObject("G03_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap G04 {
             get {
                 object obj = ResourceManager.GetObject("G04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G04_ {
+            get {
+                object obj = ResourceManager.GetObject("G04_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G041 {
+            get {
+                object obj = ResourceManager.GetObject("G041", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -235,9 +270,30 @@ namespace createTable.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap G05_ {
+            get {
+                object obj = ResourceManager.GetObject("G05_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap G06 {
             get {
                 object obj = ResourceManager.GetObject("G06", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G06_ {
+            get {
+                object obj = ResourceManager.GetObject("G06_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G06_1 {
+            get {
+                object obj = ResourceManager.GetObject("G06_1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -249,9 +305,79 @@ namespace createTable.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap G07_ {
+            get {
+                object obj = ResourceManager.GetObject("G07_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap G08 {
             get {
                 object obj = ResourceManager.GetObject("G08", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap G08_ {
+            get {
+                object obj = ResourceManager.GetObject("G08_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GK1_ {
+            get {
+                object obj = ResourceManager.GetObject("GK1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GK2_ {
+            get {
+                object obj = ResourceManager.GetObject("GK2_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GK3_ {
+            get {
+                object obj = ResourceManager.GetObject("GK3_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GK4_ {
+            get {
+                object obj = ResourceManager.GetObject("GK4_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GK5_ {
+            get {
+                object obj = ResourceManager.GetObject("GK5_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GK6_ {
+            get {
+                object obj = ResourceManager.GetObject("GK6_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GK7_ {
+            get {
+                object obj = ResourceManager.GetObject("GK7_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap GK8_ {
+            get {
+                object obj = ResourceManager.GetObject("GK8_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -347,6 +473,13 @@ namespace createTable.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap Y01_ {
+            get {
+                object obj = ResourceManager.GetObject("Y01_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Y02 {
             get {
                 object obj = ResourceManager.GetObject("Y02", resourceCulture);
@@ -392,6 +525,13 @@ namespace createTable.Properties {
         internal static System.Drawing.Bitmap Y08 {
             get {
                 object obj = ResourceManager.GetObject("Y08", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap YK6_ {
+            get {
+                object obj = ResourceManager.GetObject("YK6_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
