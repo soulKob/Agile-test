@@ -605,6 +605,18 @@ namespace createTable
             chkPointYell = chkPointGreen - 1;
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 b = new Form3();
+            b.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 a = new Form2();
+            a.Show();
+        }
+
 
 
 
