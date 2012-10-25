@@ -7,3 +7,12 @@ D:\work\AgileTraining\Project\createTable\createTable\obj\x86\Debug\GenerateReso
 D:\work\AgileTraining\Project\createTable\createTable\obj\x86\Debug\GenerateResource.write.1.tlog
 D:\work\AgileTraining\Project\createTable\createTable\obj\x86\Debug\createTable.exe
 D:\work\AgileTraining\Project\createTable\createTable\obj\x86\Debug\createTable.pdb
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.exe
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.pdb
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\bin\Debug\createTable.exe
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\bin\Debug\createTable.pdb
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Form1.resources
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Properties.Resources.resources
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\GenerateResource.write.1.tlog

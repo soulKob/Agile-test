@@ -504,6 +504,11 @@ namespace createTable
             chkPointYell = chkPointGreen - 1;
         }
 
+        private void Btexit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
 
 
 
