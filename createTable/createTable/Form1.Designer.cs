@@ -235,7 +235,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::createTable.Properties.Resources.G051;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(58, 341);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(50, 51);
@@ -285,7 +285,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.Image = global::createTable.Properties.Resources.G081;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.Location = new System.Drawing.Point(398, 342);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(50, 50);
@@ -295,7 +295,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::createTable.Properties.Resources.G071;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.Location = new System.Drawing.Point(286, 341);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(50, 51);
@@ -305,7 +305,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::createTable.Properties.Resources.G061;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.Location = new System.Drawing.Point(172, 341);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(50, 51);
@@ -315,7 +315,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::createTable.Properties.Resources.G041;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(342, 399);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(50, 51);
@@ -325,7 +325,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::createTable.Properties.Resources.G031;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(229, 400);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(50, 51);
@@ -335,7 +335,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::createTable.Properties.Resources.G021;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(116, 399);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(50, 51);
@@ -347,7 +347,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.pictureBox1.BackgroundImage = global::createTable.Properties.Resources._02_1;
-            this.pictureBox1.Image = global::createTable.Properties.Resources.G011;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(0, 399);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(50, 51);
@@ -583,7 +583,8 @@
             // 
             // bt_Y1
             // 
-            this.bt_Y1.Image = global::createTable.Properties.Resources.Y01_1;
+            this.bt_Y1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("bt_Y1.ErrorImage")));
+            this.bt_Y1.Image = ((System.Drawing.Image)(resources.GetObject("bt_Y1.Image")));
             this.bt_Y1.Location = new System.Drawing.Point(41, 153);
             this.bt_Y1.Name = "bt_Y1";
             this.bt_Y1.Size = new System.Drawing.Size(30, 30);
@@ -593,7 +594,7 @@
             // 
             // bt_Y2
             // 
-            this.bt_Y2.Image = global::createTable.Properties.Resources.Y02_;
+            this.bt_Y2.Image = ((System.Drawing.Image)(resources.GetObject("bt_Y2.Image")));
             this.bt_Y2.Location = new System.Drawing.Point(41, 183);
             this.bt_Y2.Name = "bt_Y2";
             this.bt_Y2.Size = new System.Drawing.Size(30, 30);
@@ -603,7 +604,7 @@
             // 
             // bt_Y3
             // 
-            this.bt_Y3.Image = global::createTable.Properties.Resources.Y03_;
+            this.bt_Y3.Image = ((System.Drawing.Image)(resources.GetObject("bt_Y3.Image")));
             this.bt_Y3.Location = new System.Drawing.Point(41, 211);
             this.bt_Y3.Name = "bt_Y3";
             this.bt_Y3.Size = new System.Drawing.Size(30, 30);
@@ -613,7 +614,7 @@
             // 
             // bt_Y4
             // 
-            this.bt_Y4.Image = global::createTable.Properties.Resources.Y04_;
+            this.bt_Y4.Image = ((System.Drawing.Image)(resources.GetObject("bt_Y4.Image")));
             this.bt_Y4.Location = new System.Drawing.Point(41, 240);
             this.bt_Y4.Name = "bt_Y4";
             this.bt_Y4.Size = new System.Drawing.Size(30, 30);
@@ -623,7 +624,7 @@
             // 
             // bt_Y5
             // 
-            this.bt_Y5.Image = global::createTable.Properties.Resources.Y05_;
+            this.bt_Y5.Image = ((System.Drawing.Image)(resources.GetObject("bt_Y5.Image")));
             this.bt_Y5.Location = new System.Drawing.Point(41, 269);
             this.bt_Y5.Name = "bt_Y5";
             this.bt_Y5.Size = new System.Drawing.Size(30, 30);
@@ -633,7 +634,7 @@
             // 
             // bt_Y6
             // 
-            this.bt_Y6.Image = global::createTable.Properties.Resources.Y06_;
+            this.bt_Y6.Image = ((System.Drawing.Image)(resources.GetObject("bt_Y6.Image")));
             this.bt_Y6.Location = new System.Drawing.Point(41, 298);
             this.bt_Y6.Name = "bt_Y6";
             this.bt_Y6.Size = new System.Drawing.Size(30, 30);
@@ -643,7 +644,7 @@
             // 
             // bt_Y7
             // 
-            this.bt_Y7.Image = global::createTable.Properties.Resources.Y07_;
+            this.bt_Y7.Image = ((System.Drawing.Image)(resources.GetObject("bt_Y7.Image")));
             this.bt_Y7.Location = new System.Drawing.Point(41, 327);
             this.bt_Y7.Name = "bt_Y7";
             this.bt_Y7.Size = new System.Drawing.Size(30, 30);
@@ -653,7 +654,8 @@
             // 
             // bt_Y8
             // 
-            this.bt_Y8.Image = global::createTable.Properties.Resources.Y08_;
+            this.bt_Y8.ErrorImage = ((System.Drawing.Image)(resources.GetObject("bt_Y8.ErrorImage")));
+            this.bt_Y8.Image = ((System.Drawing.Image)(resources.GetObject("bt_Y8.Image")));
             this.bt_Y8.Location = new System.Drawing.Point(41, 356);
             this.bt_Y8.Name = "bt_Y8";
             this.bt_Y8.Size = new System.Drawing.Size(30, 30);
@@ -663,7 +665,7 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.Image = global::createTable.Properties.Resources.YK8_;
+            this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
             this.pictureBox17.Location = new System.Drawing.Point(75, 356);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(30, 30);
@@ -672,7 +674,7 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.Image = global::createTable.Properties.Resources.YK7_;
+            this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
             this.pictureBox18.Location = new System.Drawing.Point(75, 327);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(30, 30);
@@ -681,7 +683,7 @@
             // 
             // pictureBox19
             // 
-            this.pictureBox19.Image = global::createTable.Properties.Resources.YK6_;
+            this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
             this.pictureBox19.Location = new System.Drawing.Point(75, 298);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(30, 30);
@@ -690,7 +692,7 @@
             // 
             // pictureBox20
             // 
-            this.pictureBox20.Image = global::createTable.Properties.Resources.YK5_;
+            this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
             this.pictureBox20.Location = new System.Drawing.Point(75, 269);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(30, 30);
@@ -699,7 +701,7 @@
             // 
             // pictureBox21
             // 
-            this.pictureBox21.Image = global::createTable.Properties.Resources.YK4_;
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
             this.pictureBox21.Location = new System.Drawing.Point(75, 240);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(30, 30);
@@ -708,7 +710,7 @@
             // 
             // pictureBox22
             // 
-            this.pictureBox22.Image = global::createTable.Properties.Resources.YK3_;
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
             this.pictureBox22.Location = new System.Drawing.Point(75, 211);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(30, 30);
@@ -717,7 +719,7 @@
             // 
             // pictureBox23
             // 
-            this.pictureBox23.Image = global::createTable.Properties.Resources.YK2_;
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
             this.pictureBox23.Location = new System.Drawing.Point(75, 183);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(30, 30);
@@ -726,7 +728,7 @@
             // 
             // pictureBox24
             // 
-            this.pictureBox24.Image = global::createTable.Properties.Resources.YK1_;
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
             this.pictureBox24.Location = new System.Drawing.Point(75, 153);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(30, 30);
@@ -735,7 +737,6 @@
             // 
             // bt_G1
             // 
-            this.bt_G1.Image = global::createTable.Properties.Resources.G01_;
             this.bt_G1.Location = new System.Drawing.Point(647, 150);
             this.bt_G1.Name = "bt_G1";
             this.bt_G1.Size = new System.Drawing.Size(30, 30);
@@ -745,7 +746,6 @@
             // 
             // bt_G2
             // 
-            this.bt_G2.Image = global::createTable.Properties.Resources.G02_;
             this.bt_G2.Location = new System.Drawing.Point(647, 179);
             this.bt_G2.Name = "bt_G2";
             this.bt_G2.Size = new System.Drawing.Size(30, 30);
@@ -755,7 +755,6 @@
             // 
             // bt_G3
             // 
-            this.bt_G3.Image = global::createTable.Properties.Resources.G03_;
             this.bt_G3.Location = new System.Drawing.Point(647, 208);
             this.bt_G3.Name = "bt_G3";
             this.bt_G3.Size = new System.Drawing.Size(30, 30);
@@ -765,7 +764,6 @@
             // 
             // bt_G4
             // 
-            this.bt_G4.Image = global::createTable.Properties.Resources.G04_;
             this.bt_G4.Location = new System.Drawing.Point(647, 237);
             this.bt_G4.Name = "bt_G4";
             this.bt_G4.Size = new System.Drawing.Size(30, 30);
@@ -775,7 +773,6 @@
             // 
             // bt_G5
             // 
-            this.bt_G5.Image = global::createTable.Properties.Resources.G05_;
             this.bt_G5.Location = new System.Drawing.Point(647, 266);
             this.bt_G5.Name = "bt_G5";
             this.bt_G5.Size = new System.Drawing.Size(30, 30);
@@ -785,7 +782,6 @@
             // 
             // bt_G6
             // 
-            this.bt_G6.Image = global::createTable.Properties.Resources.G06_;
             this.bt_G6.Location = new System.Drawing.Point(647, 295);
             this.bt_G6.Name = "bt_G6";
             this.bt_G6.Size = new System.Drawing.Size(30, 30);
@@ -795,7 +791,6 @@
             // 
             // bt_G7
             // 
-            this.bt_G7.Image = global::createTable.Properties.Resources.G07_;
             this.bt_G7.Location = new System.Drawing.Point(647, 324);
             this.bt_G7.Name = "bt_G7";
             this.bt_G7.Size = new System.Drawing.Size(30, 30);
@@ -805,7 +800,6 @@
             // 
             // bt_G8
             // 
-            this.bt_G8.Image = global::createTable.Properties.Resources.G08_;
             this.bt_G8.Location = new System.Drawing.Point(647, 353);
             this.bt_G8.Name = "bt_G8";
             this.bt_G8.Size = new System.Drawing.Size(30, 30);
@@ -815,7 +809,6 @@
             // 
             // pictureBox25
             // 
-            this.pictureBox25.Image = global::createTable.Properties.Resources.GK8_;
             this.pictureBox25.Location = new System.Drawing.Point(681, 353);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(30, 30);
@@ -824,7 +817,6 @@
             // 
             // pictureBox26
             // 
-            this.pictureBox26.Image = global::createTable.Properties.Resources.GK7_;
             this.pictureBox26.Location = new System.Drawing.Point(681, 324);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(30, 30);
@@ -833,7 +825,6 @@
             // 
             // pictureBox27
             // 
-            this.pictureBox27.Image = global::createTable.Properties.Resources.GK6_;
             this.pictureBox27.Location = new System.Drawing.Point(681, 295);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(30, 30);
@@ -842,7 +833,6 @@
             // 
             // pictureBox28
             // 
-            this.pictureBox28.Image = global::createTable.Properties.Resources.GK5_;
             this.pictureBox28.Location = new System.Drawing.Point(681, 266);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(30, 30);
@@ -851,7 +841,6 @@
             // 
             // pictureBox29
             // 
-            this.pictureBox29.Image = global::createTable.Properties.Resources.GK4_;
             this.pictureBox29.Location = new System.Drawing.Point(681, 237);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(30, 30);
@@ -860,7 +849,6 @@
             // 
             // pictureBox30
             // 
-            this.pictureBox30.Image = global::createTable.Properties.Resources.GK3_;
             this.pictureBox30.Location = new System.Drawing.Point(681, 208);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(30, 30);
@@ -869,7 +857,6 @@
             // 
             // pictureBox31
             // 
-            this.pictureBox31.Image = global::createTable.Properties.Resources.GK2_;
             this.pictureBox31.Location = new System.Drawing.Point(681, 179);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(30, 30);
@@ -878,7 +865,6 @@
             // 
             // pictureBox32
             // 
-            this.pictureBox32.Image = global::createTable.Properties.Resources.GK1_;
             this.pictureBox32.Location = new System.Drawing.Point(681, 150);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(30, 30);
