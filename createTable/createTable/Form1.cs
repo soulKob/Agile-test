@@ -605,6 +605,147 @@ namespace createTable
             chkPointYell = chkPointGreen - 1;
         }
 
+        private void Btexit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            pictureBox9.Visible = false;
+            bt_Y1.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY1.Enabled = true;
+        }
+
+        private void bt_Y2_Click_1(object sender, EventArgs e)
+        {
+            pictureBox10.Visible = false;
+            bt_Y2.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY2.Enabled = true;
+        }
+
+        private void bt_Y3_Click_1(object sender, EventArgs e)
+        {
+            pictureBox11.Visible = false;
+            bt_Y3.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY3.Enabled = true;
+        }
+
+        private void bt_Y4_Click_1(object sender, EventArgs e)
+        {
+            pictureBox12.Visible = false;
+            bt_Y4.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY4.Enabled = true;
+        }
+
+        private void pictureBox17_Click_1(object sender, EventArgs e)
+        {
+            pictureBox13.Visible = false;
+            bt_Y5.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY5.Enabled = true;
+        }
+
+        private void bt_Y6_Click_1(object sender, EventArgs e)
+        {
+            pictureBox14.Visible = false;
+            bt_Y6.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY6.Enabled = true;
+        }
+
+        private void bt_Y7_Click_1(object sender, EventArgs e)
+        {
+            pictureBox15.Visible = false;
+            bt_Y7.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY7.Enabled = true;
+        }
+
+        private void bt_Y8_Click_1(object sender, EventArgs e)
+        {
+            pictureBox16.Visible = false;
+            bt_Y8.Enabled = false;
+            chkPointYell = chkPointYell + 1;
+            btUndoY8.Enabled = true;
+        }
+
+        private void bt_G1_Click_1(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false;
+            bt_G1.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG1.Enabled = true;
+        }
+
+        private void bt_G1_Click_2(object sender, EventArgs e)
+        {
+            pictureBox1.Visible = false;
+            bt_G1.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG1.Enabled = true;
+        }
+
+        private void bt_G2_Click_1(object sender, EventArgs e)
+        {
+            pictureBox2.Visible = false;
+            bt_G2.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG2.Enabled = true;
+        }
+
+        private void bt_G3_Click_1(object sender, EventArgs e)
+        {
+            pictureBox3.Visible = false;
+            bt_G3.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG3.Enabled = true;
+        }
+
+        private void bt_G4_Click_1(object sender, EventArgs e)
+        {
+            pictureBox4.Visible = false;
+            bt_G4.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG4.Enabled = true;
+        }
+
+        private void bt_G5_Click_1(object sender, EventArgs e)
+        {
+            pictureBox5.Visible = false;
+            bt_G5.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG5.Enabled = true;
+        }
+
+        private void bt_G6_Click_1(object sender, EventArgs e)
+        {
+            pictureBox6.Visible = false;
+            bt_G6.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG6.Enabled = true;
+        }
+
+        private void bt_G7_Click_1(object sender, EventArgs e)
+        {
+            pictureBox7.Visible = false;
+            bt_G7.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG7.Enabled = true;
+        }
+
+        private void bt_G8_Click_1(object sender, EventArgs e)
+        {
+            pictureBox8.Visible = false;
+            bt_G8.Enabled = false;
+            chkPointGreen = chkPointGreen + 1;
+            btUndoG8.Enabled = true;
+        }
+
 
 
 
