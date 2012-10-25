@@ -734,6 +734,7 @@
             this.pictureBox24.Size = new System.Drawing.Size(30, 30);
             this.pictureBox24.TabIndex = 45;
             this.pictureBox24.TabStop = false;
+            this.pictureBox24.Click += new System.EventHandler(this.pictureBox24_Click);
             // 
             // bt_G1
             // 

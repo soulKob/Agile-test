@@ -746,6 +746,11 @@ namespace createTable
             btUndoG8.Enabled = true;
         }
 
+        private void pictureBox24_Click(object sender, EventArgs e)
+        {
+            this.pictureBox9.Image = new Bitmap("YK1.jpg");
+        }
+
 
 
 
