@@ -43,11 +43,11 @@ namespace createTable
         {
             if (chkPointYell == 8)
             {
-                MessageBox.Show("Green Team is Win but Yellow Team is lose");
+                MessageBox.Show("Blue is Win but Yellow is lose");
             }
             else if (chkPointGreen == 8)
             {
-                MessageBox.Show("Yellow Team is Win but Green Team is lose");
+                MessageBox.Show("Yellow is Win but Blue is lose");
             }
             //Graphics g = e.Graphics;
             //Pen myPen = new Pen(Color.Green, 2);
