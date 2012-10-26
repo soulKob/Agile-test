@@ -82,39 +82,40 @@ namespace createTable
 
         private void panel1_MouseClick(object sender, MouseEventArgs e)
         {
+            Point p = algo.createPointList(new Point(e.X, e.Y));
             switch (n)
             {
-                case 1: pictureBox1.Location = new System.Drawing.Point(e.X, e.Y);
+                case 1: pictureBox1.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 2: pictureBox2.Location = new System.Drawing.Point(e.X, e.Y);
+                case 2: pictureBox2.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 3: pictureBox3.Location = new System.Drawing.Point(e.X, e.Y);
+                case 3: pictureBox3.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 4: pictureBox4.Location = new System.Drawing.Point(e.X, e.Y);
+                case 4: pictureBox4.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 5: pictureBox5.Location = new System.Drawing.Point(e.X, e.Y);
+                case 5: pictureBox5.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 6: pictureBox6.Location = new System.Drawing.Point(e.X, e.Y);
+                case 6: pictureBox6.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 7: pictureBox7.Location = new System.Drawing.Point(e.X, e.Y);
+                case 7: pictureBox7.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 8: pictureBox8.Location = new System.Drawing.Point(e.X, e.Y);
+                case 8: pictureBox8.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 9: pictureBox9.Location = new System.Drawing.Point(e.X, e.Y);
+                case 9: pictureBox9.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 10: pictureBox10.Location = new System.Drawing.Point(e.X, e.Y);
+                case 10: pictureBox10.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 11: pictureBox11.Location = new System.Drawing.Point(e.X, e.Y);
+                case 11: pictureBox11.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 12: pictureBox12.Location = new System.Drawing.Point(e.X, e.Y);
+                case 12: pictureBox12.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 13: pictureBox13.Location = new System.Drawing.Point(e.X, e.Y);
+                case 13: pictureBox13.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 14: pictureBox14.Location = new System.Drawing.Point(e.X, e.Y);
+                case 14: pictureBox14.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 15: pictureBox15.Location = new System.Drawing.Point(e.X, e.Y);
+                case 15: pictureBox15.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
-                case 16: pictureBox16.Location = new System.Drawing.Point(e.X, e.Y);
+                case 16: pictureBox16.Location = new System.Drawing.Point(p.X, p.Y);
                     break;
             }
             foreach (PictureBox picBox in this.panel1.Controls.OfType<PictureBox>())

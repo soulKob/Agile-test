@@ -7,58 +7,67 @@ namespace createTable
 {
     class algo
     {
-        public void chkWayToGo()
+        public static Point createPointList(Point positionInClick)
         {
-            //int[,] numbers = new int[3, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 } };
+            //List of point in center
+            List<Point> centerPosition = new List<Point>();
+            int[] pointCenterNumber = { 28, 85, 142, 199, 256, 313, 370, 427 };
+
+            //List of point in Top-Left
+            List<Point> topLeftPosition = new List<Point>();
+            int[] pointTopLeftNumber = { 0, 57, 114, 171, 228, 285, 342, 399 };
+
+            int pointX;
+            int pointY;
+
+            //Create point int center
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    pointX = pointCenterNumber[j];
+                    pointY = pointCenterNumber[i];
+                    Point p = new Point(pointX, pointY);
+                    centerPosition.Add(p);
+                }
+            }
+            //Create point in Top-Left
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    pointX = pointTopLeftNumber[j];
+                    pointY = pointTopLeftNumber[i];
+                    Point p = new Point(pointX, pointY);
+                    topLeftPosition.Add(p);
+                }
+            }
+            int shortPosition = algo.GetDistance(centerPosition, new Point(positionInClick.X, positionInClick.Y));
+            //Console.WriteLine(topLeftPosition[shortPosition].X + " , " + topLeftPosition[shortPosition].Y);
+
+            return topLeftPosition[shortPosition];
         }
-        public static double GetDistance(Point a, Point b)
+
+        public static int GetDistance(List<Point> centerPosition, Point currPositon)
         {
-            return Math.Sqrt(((a.X - b.X) * (a.X - b.X)) + ((a.Y - b.Y) * (a.Y - b.Y)));
+            //int shortPosition = 0;
+            List<double> distanceList = new List<double>();
+            for (int i = 0; i < centerPosition.Count; i++)
+            {
+                double distance = Math.Sqrt(((currPositon.X - centerPosition[i].X) * (currPositon.X - centerPosition[i].X)) + ((currPositon.Y - centerPosition[i].Y) * (currPositon.Y - centerPosition[i].Y)));
+                distanceList.Add(distance);
+                //if (distance <= 57)
+                //{
+                //    shortPosition = i;
+                //}
+            }
+            double minvalue = distanceList.Min();
+
+            int minIndex = distanceList.IndexOf(minvalue);
+
+            //Console.WriteLine("min value "+ minvalue+"  minIndex"+minIndex);
+            return minIndex;
         }
-        public void createArrayStatus()
-        {
-            List<Point> position = new List<Point>();
-            int[,] status = new int[8, 4];
 
-            position.Add(new Point(0, 0));
-            position.Add(new Point(114, 0));
-            position.Add(new Point(228, 0));
-            position.Add(new Point(342, 0));
-
-            position.Add(new Point(57, 57));
-            position.Add(new Point(171, 57));
-            position.Add(new Point(285, 57));
-            position.Add(new Point(456, 57));
-
-            position.Add(new Point(0, 114));
-            position.Add(new Point(114, 114));
-            position.Add(new Point(228, 114));
-            position.Add(new Point(342, 114));
-
-            position.Add(new Point(57, 171));
-            position.Add(new Point(171, 171));
-            position.Add(new Point(285, 171));
-            position.Add(new Point(456, 171));
-
-            position.Add(new Point(0, 228));
-            position.Add(new Point(114, 228));
-            position.Add(new Point(228, 228));
-            position.Add(new Point(342, 228));
-
-            position.Add(new Point(57, 285));
-            position.Add(new Point(171, 285));
-            position.Add(new Point(285, 285));
-            position.Add(new Point(456, 285));
-
-            position.Add(new Point(0, 342));
-            position.Add(new Point(114, 342));
-            position.Add(new Point(228, 342));
-            position.Add(new Point(342, 342));
-
-            position.Add(new Point(57, 456));
-            position.Add(new Point(171, 456));
-            position.Add(new Point(285, 456));
-            position.Add(new Point(456, 456));
-        }
     }
 }
