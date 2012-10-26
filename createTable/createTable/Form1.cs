@@ -753,13 +753,13 @@ namespace createTable
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form3 a= new Form3();
+            Form4 a= new Form4();
             a.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form2 b = new Form2();
+            Form5 b = new Form5();
             b.Show();
 
         }
