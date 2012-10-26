@@ -44,10 +44,12 @@ namespace createTable
             if (chkPointYell == 8)
             {
                 MessageBox.Show("Blue is Win but Yellow is lose");
+                Application.Restart();
             }
             else if (chkPointGreen == 8)
             {
                 MessageBox.Show("Yellow is Win but Blue is lose");
+                Application.Restart();
             }
             //Graphics g = e.Graphics;
             //Pen myPen = new Pen(Color.Green, 2);
@@ -769,6 +771,18 @@ namespace createTable
             this.pictureBox1.Image = new Bitmap("GK1.jpg");
        
 }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 a = new Form2();
+            a.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 b = new Form3();
+            b.Show();
+        }
 
 
 
