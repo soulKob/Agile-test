@@ -726,10 +726,7 @@ namespace createTable
             this.pictureBox16.Image = new Bitmap("YK8.jpg");
         }
 
-        private void pictureBox32_Click(object sender, EventArgs e)
-        {
-            this.pictureBox1.Image = new Bitmap("GK1.jpg");
-        }
+
 
         private void pictureBox31_Click(object sender, EventArgs e)
         {
@@ -765,6 +762,12 @@ namespace createTable
         {
             this.pictureBox8.Image = new Bitmap("GK8.jpg");
         }
+
+        private void pictureBox32_Click(object sender, EventArgs e)
+        {
+            this.pictureBox1.Image = new Bitmap("GK1.jpg");
+       
+}
 
 
 
