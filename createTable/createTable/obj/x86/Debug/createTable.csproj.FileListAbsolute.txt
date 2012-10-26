@@ -16,3 +16,25 @@ C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\creat
 C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Properties.Resources.resources
 C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Documents and Settings\admin\My Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.exe
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.pdb
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\bin\Debug\createTable.exe
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\bin\Debug\createTable.pdb
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Form1.resources
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Properties.Resources.resources
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Form2.resources
+C:\Users\kengz\Documents\GitHub\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Form3.resources
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\createTable.exe
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\createTable.pdb
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\bin\Debug\createTable.exe
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\bin\Debug\createTable.pdb
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Form1.resources
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Form2.resources
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Form3.resources
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\createTable.Properties.Resources.resources
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\kengz\Desktop\Agile-test\createTable\createTable\obj\x86\Debug\GenerateResource.write.1.tlog
