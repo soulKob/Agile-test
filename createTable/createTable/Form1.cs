@@ -496,56 +496,56 @@ namespace createTable
         {
             pictureBox9.Visible = true;
             bt_Y1.Enabled = true;
-            chkPointYell = chkPointGreen - 1;
+            chkPointYell = chkPointYell - 1;
         }
 
         private void btUndoY2_Click(object sender, EventArgs e)
         {
             pictureBox10.Visible = true;
             bt_Y2.Enabled = true;
-            chkPointYell = chkPointGreen - 1;
+            chkPointYell = chkPointYell - 1;
         }
 
         private void btUndoY3_Click(object sender, EventArgs e)
         {
             pictureBox11.Visible = true;
             bt_Y3.Enabled = true;
-            chkPointYell = chkPointGreen - 1;
+            chkPointYell = chkPointYell - 1;
         }
 
         private void btUndoY4_Click(object sender, EventArgs e)
         {
             pictureBox12.Visible = true;
             bt_Y4.Enabled = true;
-            chkPointYell = chkPointGreen - 1;
+            chkPointYell = chkPointYell - 1;
         }
 
         private void btUndoY5_Click(object sender, EventArgs e)
         {
             pictureBox13.Visible = true;
             bt_Y5.Enabled = true;
-            chkPointYell = chkPointGreen - 1;
+            chkPointYell = chkPointYell - 1;
         }
 
         private void btUndoY6_Click(object sender, EventArgs e)
         {
             pictureBox14.Visible = true;
             bt_Y6.Enabled = true;
-            chkPointYell = chkPointGreen - 1;
+            chkPointYell = chkPointYell - 1;
         }
 
         private void btUndoY7_Click(object sender, EventArgs e)
         {
             pictureBox15.Visible = true;
             bt_Y7.Enabled = true;
-            chkPointYell = chkPointGreen - 1;
+            chkPointYell = chkPointYell - 1;
         }
 
         private void btUndoY8_Click(object sender, EventArgs e)
         {
             pictureBox16.Visible = true;
             bt_Y8.Enabled = true;
-            chkPointYell = chkPointGreen - 1;
+            chkPointYell = chkPointYell - 1;
         }
 
         private void Btexit_Click(object sender, EventArgs e)
