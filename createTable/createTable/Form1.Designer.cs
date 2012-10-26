@@ -48,8 +48,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.cmbBoxYel = new System.Windows.Forms.ComboBox();
             this.bt_evoY = new System.Windows.Forms.Button();
-            this.bt_evoG = new System.Windows.Forms.Button();
-            this.cmbBoxGr = new System.Windows.Forms.ComboBox();
             this.btUndoG1 = new System.Windows.Forms.PictureBox();
             this.btUndoG2 = new System.Windows.Forms.PictureBox();
             this.btUndoG3 = new System.Windows.Forms.PictureBox();
@@ -99,6 +97,10 @@
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
             this.pictureBox31 = new System.Windows.Forms.PictureBox();
             this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.cmbBoxGr = new System.Windows.Forms.ComboBox();
+            this.bt_evoG = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
@@ -382,34 +384,6 @@
             this.bt_evoY.Text = "Evolution";
             this.bt_evoY.UseVisualStyleBackColor = true;
             this.bt_evoY.Click += new System.EventHandler(this.bt_evoY_Click);
-            // 
-            // bt_evoG
-            // 
-            this.bt_evoG.Location = new System.Drawing.Point(659, 441);
-            this.bt_evoG.Name = "bt_evoG";
-            this.bt_evoG.Size = new System.Drawing.Size(75, 23);
-            this.bt_evoG.TabIndex = 20;
-            this.bt_evoG.Text = "Evolution";
-            this.bt_evoG.UseVisualStyleBackColor = true;
-            this.bt_evoG.Click += new System.EventHandler(this.bt_evoG_Click);
-            // 
-            // cmbBoxGr
-            // 
-            this.cmbBoxGr.FormattingEnabled = true;
-            this.cmbBoxGr.Items.AddRange(new object[] {
-            "Green1",
-            "Green2",
-            "Green3",
-            "Green4",
-            "Green5",
-            "Green6",
-            "Green7",
-            "Green8"});
-            this.cmbBoxGr.Location = new System.Drawing.Point(659, 414);
-            this.cmbBoxGr.Name = "cmbBoxGr";
-            this.cmbBoxGr.Size = new System.Drawing.Size(75, 21);
-            this.cmbBoxGr.TabIndex = 19;
-            this.cmbBoxGr.SelectedIndexChanged += new System.EventHandler(this.cmbBoxGr_SelectedIndexChanged_1);
             // 
             // btUndoG1
             // 
@@ -888,12 +862,64 @@
             this.pictureBox32.TabIndex = 61;
             this.pictureBox32.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(647, 499);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(51, 37);
+            this.button2.TabIndex = 70;
+            this.button2.Text = "Lose";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(54, 499);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(51, 37);
+            this.button3.TabIndex = 71;
+            this.button3.Text = "Lose";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // cmbBoxGr
+            // 
+            this.cmbBoxGr.FormattingEnabled = true;
+            this.cmbBoxGr.Items.AddRange(new object[] {
+            "Green1",
+            "Green2",
+            "Green3",
+            "Green4",
+            "Green5",
+            "Green6",
+            "Green7",
+            "Green8"});
+            this.cmbBoxGr.Location = new System.Drawing.Point(659, 414);
+            this.cmbBoxGr.Name = "cmbBoxGr";
+            this.cmbBoxGr.Size = new System.Drawing.Size(75, 21);
+            this.cmbBoxGr.TabIndex = 19;
+            this.cmbBoxGr.SelectedIndexChanged += new System.EventHandler(this.cmbBoxGr_SelectedIndexChanged_1);
+            // 
+            // bt_evoG
+            // 
+            this.bt_evoG.Location = new System.Drawing.Point(659, 441);
+            this.bt_evoG.Name = "bt_evoG";
+            this.bt_evoG.Size = new System.Drawing.Size(75, 23);
+            this.bt_evoG.TabIndex = 20;
+            this.bt_evoG.Text = "Evolution";
+            this.bt_evoG.UseVisualStyleBackColor = true;
+            this.bt_evoG.Click += new System.EventHandler(this.bt_evoG_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::createTable.Properties.Resources.bg4;
             this.ClientSize = new System.Drawing.Size(941, 562);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox25);
             this.Controls.Add(this.pictureBox26);
             this.Controls.Add(this.pictureBox27);
@@ -1041,8 +1067,6 @@
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.ComboBox cmbBoxYel;
         private System.Windows.Forms.Button bt_evoY;
-        private System.Windows.Forms.Button bt_evoG;
-        private System.Windows.Forms.ComboBox cmbBoxGr;
         private System.Windows.Forms.PictureBox btUndoG1;
         private System.Windows.Forms.PictureBox btUndoG2;
         private System.Windows.Forms.PictureBox btUndoG3;
@@ -1092,6 +1116,10 @@
         private System.Windows.Forms.PictureBox pictureBox30;
         private System.Windows.Forms.PictureBox pictureBox31;
         private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox cmbBoxGr;
+        private System.Windows.Forms.Button bt_evoG;
 
     }
 }

@@ -751,6 +751,19 @@ namespace createTable
             this.pictureBox9.Image = new Bitmap("YK1.jpg");
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form3 a= new Form3();
+            a.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form2 b = new Form2();
+            b.Show();
+
+        }
+
 
 
 
