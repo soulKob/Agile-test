@@ -37,9 +37,6 @@ namespace createTable
         }
 
         private int n;
-        private int cmBoxYindex;
-        private int cmBoxGindex;
-        private String pathImg = "D:/work/AgileTraining/Project/createTable/PicKing/";
         private int chkPointYell = 0;
         private int chkPointGreen = 0;
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -436,64 +433,7 @@ namespace createTable
             btUndoG8.Enabled = true;
         }
 
-        private void cmbBoxYel_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            cmBoxYindex = cmbBoxYel.SelectedIndex;
-            //MessageBox.Show(cmBoxYindex.ToString());
-        }
-        private void cmbBoxGr_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-            cmBoxGindex = cmbBoxGr.SelectedIndex;
-            //MessageBox.Show(cmBoxGindex.ToString());
-        }
-
-        private void bt_evoY_Click(object sender, EventArgs e)
-        {
-            switch (cmBoxYindex)
-            {
-                case 0: this.pictureBox9.Image = new Bitmap(pathImg + "YK1.jpg");
-                    break;
-                case 1: this.pictureBox10.Image = new Bitmap(pathImg + "YK2.jpg");
-                    break;
-                case 2: this.pictureBox11.Image = new Bitmap(pathImg + "YK3.jpg");
-                    break;
-                case 3: this.pictureBox12.Image = new Bitmap(pathImg + "YK4.jpg");
-                    break;
-                case 4: this.pictureBox13.Image = new Bitmap(pathImg + "YK5.jpg");
-                    break;
-                case 5: this.pictureBox14.Image = new Bitmap(pathImg + "YK6.jpg");
-                    break;
-                case 6: this.pictureBox15.Image = new Bitmap(pathImg + "YK7.jpg");
-                    break;
-                case 7: this.pictureBox16.Image = new Bitmap(pathImg + "YK8.jpg");
-                    break;
-            }
-        }
-
-        private void bt_evoG_Click(object sender, EventArgs e)
-        {
-            switch (cmBoxGindex)
-            {
-                case 0: this.pictureBox1.Image = new Bitmap(pathImg + "GK1.jpg");
-                    break;
-                case 1: this.pictureBox2.Image = new Bitmap(pathImg + "GK2.jpg");
-                    break;
-                case 2: this.pictureBox3.Image = new Bitmap(pathImg + "GK3.jpg");
-                    break;
-                case 3: this.pictureBox4.Image = new Bitmap(pathImg + "GK4.jpg");
-                    break;
-                case 4: this.pictureBox5.Image = new Bitmap(pathImg + "GK5.jpg");
-                    break;
-                case 5: this.pictureBox6.Image = new Bitmap(pathImg + "GK6.jpg");
-                    break;
-                case 6: this.pictureBox7.Image = new Bitmap(pathImg + "GK7.jpg");
-                    break;
-                case 7: this.pictureBox8.Image = new Bitmap(pathImg + "GK8.jpg");
-                    break;
-            }
-        }
-
-        private void btUndoG1_Click(object sender, EventArgs e)
+       private void btUndoG1_Click(object sender, EventArgs e)
         {
             pictureBox1.Visible = true;
             bt_G1.Enabled = true;
@@ -749,6 +689,81 @@ namespace createTable
         private void pictureBox24_Click(object sender, EventArgs e)
         {
             this.pictureBox9.Image = new Bitmap("YK1.jpg");
+        }
+
+        private void pictureBox23_Click(object sender, EventArgs e)
+        {
+            this.pictureBox10.Image = new Bitmap("YK2.jpg");
+        }
+
+        private void pictureBox22_Click(object sender, EventArgs e)
+        {
+            this.pictureBox11.Image = new Bitmap("YK3.jpg");
+        }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            this.pictureBox12.Image = new Bitmap("YK4.jpg");
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            this.pictureBox13.Image = new Bitmap("YK5.jpg");
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            this.pictureBox14.Image = new Bitmap("YK6.jpg");
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            this.pictureBox15.Image = new Bitmap("YK7.jpg");
+        }
+
+        private void pictureBox17_Click_2(object sender, EventArgs e)
+        {
+            this.pictureBox16.Image = new Bitmap("YK8.jpg");
+        }
+
+        private void pictureBox32_Click(object sender, EventArgs e)
+        {
+            this.pictureBox1.Image = new Bitmap("GK1.jpg");
+        }
+
+        private void pictureBox31_Click(object sender, EventArgs e)
+        {
+            this.pictureBox2.Image = new Bitmap("GK2.jpg");
+        }
+
+        private void pictureBox30_Click(object sender, EventArgs e)
+        {
+            this.pictureBox3.Image = new Bitmap("GK3.jpg");
+        }
+
+        private void pictureBox29_Click(object sender, EventArgs e)
+        {
+            this.pictureBox4.Image = new Bitmap("GK4.jpg");
+        }
+
+        private void pictureBox28_Click(object sender, EventArgs e)
+        {
+            this.pictureBox5.Image = new Bitmap("GK5.jpg");
+        }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+            this.pictureBox6.Image = new Bitmap("GK6.jpg");
+        }
+
+        private void pictureBox26_Click(object sender, EventArgs e)
+        {
+            this.pictureBox7.Image = new Bitmap("GK7.jpg");
+        }
+
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+            this.pictureBox8.Image = new Bitmap("GK8.jpg");
         }
 
 

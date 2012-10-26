@@ -46,10 +46,6 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.cmbBoxYel = new System.Windows.Forms.ComboBox();
-            this.bt_evoY = new System.Windows.Forms.Button();
-            this.bt_evoG = new System.Windows.Forms.Button();
-            this.cmbBoxGr = new System.Windows.Forms.ComboBox();
             this.btUndoG1 = new System.Windows.Forms.PictureBox();
             this.btUndoG2 = new System.Windows.Forms.PictureBox();
             this.btUndoG3 = new System.Windows.Forms.PictureBox();
@@ -355,62 +351,6 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // cmbBoxYel
-            // 
-            this.cmbBoxYel.FormattingEnabled = true;
-            this.cmbBoxYel.Items.AddRange(new object[] {
-            "Yellow1",
-            "Yellow2",
-            "Yellow3",
-            "Yellow4",
-            "Yellow5",
-            "Yellow6",
-            "Yellow7",
-            "Yellow8"});
-            this.cmbBoxYel.Location = new System.Drawing.Point(30, 409);
-            this.cmbBoxYel.Name = "cmbBoxYel";
-            this.cmbBoxYel.Size = new System.Drawing.Size(75, 21);
-            this.cmbBoxYel.TabIndex = 17;
-            this.cmbBoxYel.SelectedIndexChanged += new System.EventHandler(this.cmbBoxYel_SelectedIndexChanged);
-            // 
-            // bt_evoY
-            // 
-            this.bt_evoY.Location = new System.Drawing.Point(30, 436);
-            this.bt_evoY.Name = "bt_evoY";
-            this.bt_evoY.Size = new System.Drawing.Size(75, 23);
-            this.bt_evoY.TabIndex = 18;
-            this.bt_evoY.Text = "Evolution";
-            this.bt_evoY.UseVisualStyleBackColor = true;
-            this.bt_evoY.Click += new System.EventHandler(this.bt_evoY_Click);
-            // 
-            // bt_evoG
-            // 
-            this.bt_evoG.Location = new System.Drawing.Point(659, 441);
-            this.bt_evoG.Name = "bt_evoG";
-            this.bt_evoG.Size = new System.Drawing.Size(75, 23);
-            this.bt_evoG.TabIndex = 20;
-            this.bt_evoG.Text = "Evolution";
-            this.bt_evoG.UseVisualStyleBackColor = true;
-            this.bt_evoG.Click += new System.EventHandler(this.bt_evoG_Click);
-            // 
-            // cmbBoxGr
-            // 
-            this.cmbBoxGr.FormattingEnabled = true;
-            this.cmbBoxGr.Items.AddRange(new object[] {
-            "Green1",
-            "Green2",
-            "Green3",
-            "Green4",
-            "Green5",
-            "Green6",
-            "Green7",
-            "Green8"});
-            this.cmbBoxGr.Location = new System.Drawing.Point(659, 414);
-            this.cmbBoxGr.Name = "cmbBoxGr";
-            this.cmbBoxGr.Size = new System.Drawing.Size(75, 21);
-            this.cmbBoxGr.TabIndex = 19;
-            this.cmbBoxGr.SelectedIndexChanged += new System.EventHandler(this.cmbBoxGr_SelectedIndexChanged_1);
-            // 
             // btUndoG1
             // 
             this.btUndoG1.Image = global::createTable.Properties.Resources.undo_icon_2;
@@ -671,6 +611,7 @@
             this.pictureBox17.Size = new System.Drawing.Size(30, 30);
             this.pictureBox17.TabIndex = 52;
             this.pictureBox17.TabStop = false;
+            this.pictureBox17.Click += new System.EventHandler(this.pictureBox17_Click_2);
             // 
             // pictureBox18
             // 
@@ -680,6 +621,7 @@
             this.pictureBox18.Size = new System.Drawing.Size(30, 30);
             this.pictureBox18.TabIndex = 51;
             this.pictureBox18.TabStop = false;
+            this.pictureBox18.Click += new System.EventHandler(this.pictureBox18_Click);
             // 
             // pictureBox19
             // 
@@ -689,6 +631,7 @@
             this.pictureBox19.Size = new System.Drawing.Size(30, 30);
             this.pictureBox19.TabIndex = 50;
             this.pictureBox19.TabStop = false;
+            this.pictureBox19.Click += new System.EventHandler(this.pictureBox19_Click);
             // 
             // pictureBox20
             // 
@@ -698,6 +641,7 @@
             this.pictureBox20.Size = new System.Drawing.Size(30, 30);
             this.pictureBox20.TabIndex = 49;
             this.pictureBox20.TabStop = false;
+            this.pictureBox20.Click += new System.EventHandler(this.pictureBox20_Click);
             // 
             // pictureBox21
             // 
@@ -707,6 +651,7 @@
             this.pictureBox21.Size = new System.Drawing.Size(30, 30);
             this.pictureBox21.TabIndex = 48;
             this.pictureBox21.TabStop = false;
+            this.pictureBox21.Click += new System.EventHandler(this.pictureBox21_Click);
             // 
             // pictureBox22
             // 
@@ -716,6 +661,7 @@
             this.pictureBox22.Size = new System.Drawing.Size(30, 30);
             this.pictureBox22.TabIndex = 47;
             this.pictureBox22.TabStop = false;
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox22_Click);
             // 
             // pictureBox23
             // 
@@ -725,6 +671,7 @@
             this.pictureBox23.Size = new System.Drawing.Size(30, 30);
             this.pictureBox23.TabIndex = 46;
             this.pictureBox23.TabStop = false;
+            this.pictureBox23.Click += new System.EventHandler(this.pictureBox23_Click);
             // 
             // pictureBox24
             // 
@@ -824,6 +771,7 @@
             this.pictureBox25.Size = new System.Drawing.Size(30, 30);
             this.pictureBox25.TabIndex = 68;
             this.pictureBox25.TabStop = false;
+            this.pictureBox25.Click += new System.EventHandler(this.pictureBox25_Click);
             // 
             // pictureBox26
             // 
@@ -833,6 +781,7 @@
             this.pictureBox26.Size = new System.Drawing.Size(30, 30);
             this.pictureBox26.TabIndex = 67;
             this.pictureBox26.TabStop = false;
+            this.pictureBox26.Click += new System.EventHandler(this.pictureBox26_Click);
             // 
             // pictureBox27
             // 
@@ -842,6 +791,7 @@
             this.pictureBox27.Size = new System.Drawing.Size(30, 30);
             this.pictureBox27.TabIndex = 66;
             this.pictureBox27.TabStop = false;
+            this.pictureBox27.Click += new System.EventHandler(this.pictureBox27_Click);
             // 
             // pictureBox28
             // 
@@ -851,6 +801,7 @@
             this.pictureBox28.Size = new System.Drawing.Size(30, 30);
             this.pictureBox28.TabIndex = 65;
             this.pictureBox28.TabStop = false;
+            this.pictureBox28.Click += new System.EventHandler(this.pictureBox28_Click);
             // 
             // pictureBox29
             // 
@@ -860,6 +811,7 @@
             this.pictureBox29.Size = new System.Drawing.Size(30, 30);
             this.pictureBox29.TabIndex = 64;
             this.pictureBox29.TabStop = false;
+            this.pictureBox29.Click += new System.EventHandler(this.pictureBox29_Click);
             // 
             // pictureBox30
             // 
@@ -869,6 +821,7 @@
             this.pictureBox30.Size = new System.Drawing.Size(30, 30);
             this.pictureBox30.TabIndex = 63;
             this.pictureBox30.TabStop = false;
+            this.pictureBox30.Click += new System.EventHandler(this.pictureBox30_Click);
             // 
             // pictureBox31
             // 
@@ -878,6 +831,7 @@
             this.pictureBox31.Size = new System.Drawing.Size(30, 30);
             this.pictureBox31.TabIndex = 62;
             this.pictureBox31.TabStop = false;
+            this.pictureBox31.Click += new System.EventHandler(this.pictureBox31_Click);
             // 
             // pictureBox32
             // 
@@ -887,6 +841,7 @@
             this.pictureBox32.Size = new System.Drawing.Size(30, 30);
             this.pictureBox32.TabIndex = 61;
             this.pictureBox32.TabStop = false;
+            this.pictureBox32.Click += new System.EventHandler(this.pictureBox32_Click);
             // 
             // Form1
             // 
@@ -943,10 +898,6 @@
             this.Controls.Add(this.btUndoG3);
             this.Controls.Add(this.btUndoG2);
             this.Controls.Add(this.btUndoG1);
-            this.Controls.Add(this.bt_evoG);
-            this.Controls.Add(this.cmbBoxGr);
-            this.Controls.Add(this.bt_evoY);
-            this.Controls.Add(this.cmbBoxYel);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Makhos Game version 1.2  by..  Sheeps Six";
@@ -1039,10 +990,6 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.ComboBox cmbBoxYel;
-        private System.Windows.Forms.Button bt_evoY;
-        private System.Windows.Forms.Button bt_evoG;
-        private System.Windows.Forms.ComboBox cmbBoxGr;
         private System.Windows.Forms.PictureBox btUndoG1;
         private System.Windows.Forms.PictureBox btUndoG2;
         private System.Windows.Forms.PictureBox btUndoG3;
