@@ -516,7 +516,7 @@
             // Btexit
             // 
             this.Btexit.Image = ((System.Drawing.Image)(resources.GetObject("Btexit.Image")));
-            this.Btexit.Location = new System.Drawing.Point(891, 514);
+            this.Btexit.Location = new System.Drawing.Point(768, 514);
             this.Btexit.Name = "Btexit";
             this.Btexit.Size = new System.Drawing.Size(38, 39);
             this.Btexit.TabIndex = 36;
@@ -869,8 +869,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::createTable.Properties.Resources.bg4;
-            this.ClientSize = new System.Drawing.Size(941, 562);
+            this.BackgroundImage = global::createTable.Properties.Resources.bg5;
+            this.ClientSize = new System.Drawing.Size(818, 562);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox25);
@@ -924,7 +924,7 @@
             this.Controls.Add(this.btUndoG1);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Makhos Game version 1.2  by..  Sheeps Six";
+            this.Text = "Makhos Game version 1.5  by..  Sheeps Six";
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();

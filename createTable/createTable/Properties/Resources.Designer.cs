@@ -193,6 +193,13 @@ namespace createTable.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap bg5 {
+            get {
+                object obj = ResourceManager.GetObject("bg5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap bt_Undo {
             get {
                 object obj = ResourceManager.GetObject("bt_Undo", resourceCulture);
